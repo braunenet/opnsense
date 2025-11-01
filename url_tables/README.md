@@ -15,7 +15,7 @@ Each file in this repository defines a specific category of IP networks, such as
 ## Usage in OPNsense
 
 You can import any list from this repository into OPNsense as a URL Table (IPs) or a URL Table in JSON format (IPs).
-Please refer to the official OPNsense documentation for instructions on how to use these lists: [OPNsense Documentation – Aliases)](https://docs.opnsense.org/manual/aliases.html)
+Please refer to the official OPNsense documentation for instructions on how to use these lists: [OPNsense Documentation – Aliases](https://docs.opnsense.org/manual/aliases.html)
 
 This way, all appliances automatically stay up-to-date whenever the list content changes.
 
