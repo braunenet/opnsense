@@ -1,4 +1,4 @@
-# Central IP Lists for OPNsense Deployments
+# Central URL/IP tables for OPNsense
 
 ## Purpose
 This repository provides centrally managed IP lists used as trusted sources for OPNsense firewall deployments.  
