@@ -15,17 +15,15 @@ Each file in this repository defines a specific category of IP networks, such as
 ## Usage in OPNsense
 
 You can import any list from this repository into OPNsense as a URL Table (IPs) or a URL Table in JSON format (IPs).
-Please refer to the official OPNsense documentation for instructions on how to use these lists: [OPNsense Documentation – Aliases](https://docs.opnsense.org/manual/aliases.html)
-
-This way, all appliances automatically stay up-to-date whenever the list content changes.
+Please refer to the official OPNsense documentation for instructions on how to use these lists: [OPNsense documentation – Aliases](https://docs.opnsense.org/manual/aliases.html)
 
 ---
 
-## Filelist
+## File list
 | File | Description |
 |------|--------------|
 | `ipv4_private_reserved_special.json` | Contains all private, reserved and special-purpose IPv4 networks (IANA + RFCs) |
 
 ---
 
-© 2025 – BRAUNE GmbH / Network Security
+© 2025 – BRAUNE GmbH
