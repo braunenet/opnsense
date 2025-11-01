@@ -17,6 +17,15 @@ Each file in this repository defines a specific category of IP networks, such as
 You can import any list from this repository into OPNsense as a URL Table (IPs) or a URL Table in JSON format (IPs).
 Please refer to the official OPNsense documentation for instructions on how to use these lists: [OPNsense documentation – Aliases](https://docs.opnsense.org/manual/aliases.html)
 
+**Example for `ipv4_private_reserved_special.json`:**
+- Enabled: `Yes`
+- Name: `urltable_IPv4_AllNonPublicIPs` 
+- Type: `URL Table in JSON format (IPs)` 
+- Refresh Frequency: ` 0 Days / 1.00 Hours`
+- Content: `https://raw.githubusercontent.com/braunenet/opnsense/refs/heads/main/url_tables/ipv4_private_reserved_special.json`
+- Path expression: `.cidrs[].cidr`
+- Description: `Contains all private, reserved and special-purpose IPv4 networks (IANA + RFCs)`
+
 ---
 
 ## File list
